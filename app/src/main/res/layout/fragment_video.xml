@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    tools:context=".PostFragment.VideoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.mohammedalaa.gifloading.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        app:block_while_loading="true"
+        app:message="@string/Loading"
+        app:src="@drawable/loading_gif"
+        app:text_color="@color/holo_blue_dark"
+        app:text_size="10dp" />
+
+</RelativeLayout>

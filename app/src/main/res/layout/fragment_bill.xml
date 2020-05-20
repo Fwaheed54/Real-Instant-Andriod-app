@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/colorWhite"
+    tools:context=".PostFragment.BillFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text=" Your Bill"
+            android:textColor="@color/colorPrimary"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SearchBill"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/RadiusBill"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=" Post Bill"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HoursBill"
+            android:layout_width="349dp"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=" Post Bill"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TotalBill"
+            android:layout_width="349dp"
+            android:layout_height="46dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=" Post Bill"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/UserCardDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Card Details"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/previous_button"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_weight="1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/Previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="160dp"
+                android:background="@drawable/previous_button"
+                android:textColor="@color/white"
+                android:text="Previous" />
+
+            <Button
+                android:id="@+id/Next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/previous_button"
+                android:textColor="@color/white"
+                android:text="share" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

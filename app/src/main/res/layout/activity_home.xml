@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top"
+    android:fitsSystemWindows="true"
+    android:layout_margin="0dp"
+    tools:openDrawer="start">
+
+    <FrameLayout
+        android:id="@+id/Fragment_Poll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:theme="@style/BottomNavigationTheme"
+        android:background="@drawable/nav_bar_style"
+        app:itemIconTint="@drawable/nav_item_selector_style"
+        app:menu="@menu/navigation" />
+</RelativeLayout>

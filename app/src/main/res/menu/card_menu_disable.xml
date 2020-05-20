@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Report_nav"
+        android:orderInCategory="100"
+        android:enabled="false"
+        android:title="@string/Reported" >
+    </item>
+
+
+    <item
+        android:id="@+id/no_interasted"
+        android:orderInCategory="101"
+        android:title="@string/hide">
+
+    </item>
+
+
+</menu>

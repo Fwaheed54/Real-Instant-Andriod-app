@@ -1,0 +1,59 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dividerBase">
+        <item name="background">?android:attr/listDivider</item>
+        //you can give your color here. that will change all divider color in your app.
+    </style>
+
+    <style name="dividerHorizontal" parent="dividerBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="background">@color/primary_light</item>// You can change thickness here.
+    </style>
+
+    <style name="dividerVertical" parent="dividerBase">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TintTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="paddingStart">1dp</item>
+        <item name="paddingEnd">1dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CheckStyle">
+        <item name="colorAccent">#ff0099cc</item>
+        <item name="android:textColorSecondary">#ff0099cc</item>
+    </style>
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#ff0099cc</item>
+    </style>
+
+    <style name="SeekBarColor"
+        parent="Widget.AppCompat.SeekBar">
+        <item name="colorAccent">@color/colorOrange</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/holo_blue_dark</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+</resources>

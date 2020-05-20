@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:weightSum="4"
+    android:id="@+id/testDialog"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radius Bill"
+            android:textSize="@dimen/ld_side_cb_margin"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/RadiusBill_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="amount"
+            android:textSize="@dimen/ld_side_cb_margin"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Bill"
+            android:textSize="@dimen/ld_side_cb_margin"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/SearchBill_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="amount"
+            android:textSize="@dimen/ld_side_cb_margin"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hours Bill"
+            android:textSize="@dimen/ld_side_cb_margin"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/HoursBill_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="amount"
+            android:textSize="@dimen/ld_side_cb_margin"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Bill"
+            android:textSize="@dimen/ld_side_cb_margin"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/TotalBill_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="amount"
+            android:textSize="@dimen/ld_side_cb_margin"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+</LinearLayout>

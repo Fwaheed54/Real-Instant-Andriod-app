@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android2="http://schemas.android.com/tools"
+    android:id="@+id/mapLayout"
+    android:layout_marginTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment">
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:innerRadius="0dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:shape="rectangle"
+            android:thicknessRatio="10"
+            app:cardElevation="4dp"
+            app:layout_constraintDimensionRatio="H,16:9"
+            app:layout_constraintEnd_toEndOf="@id/mapLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ImageView"
+                android:visibility="visible"
+                android:background="@color/divider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"/>
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" >
+
+            </com.google.android.gms.maps.MapView>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">RealInstant</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_camera">Camera</string>
+    <string name="title_home">Home</string>
+    <string name="title_AllPost">All Post</string>
+    <string name="title_PaidPosts">Paid Posts</string>
+    <string name="title_subscription">Subscribed Areas</string>
+    <string name="title_Nearby">NearbyPeople</string>
+    <string name="title_profile">Profile</string>
+    <string name="report">Report</string>
+    <string name="delete">Delete</string>
+    <string name="Reported">Reported</string>
+    <string name="hide">Hide</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main_prc">MainActivityPrc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_side__bar__header">Side_Bar_Header</string>
+    <string name="title_activity_side_bar_head">SideBarHead</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!--this for boom menu-->
+
+    <string name="simple_circle_button_example">Simple Circle Button Example</string>
+    <string name="text_inside_circle_button_example">Text Inside Circle Button Example</string>
+    <string name="text_outside_circle_button_example">Text Outside Circle Button Example</string>
+    <string name="ham_button_example">Ham Button Example</string>
+    <string name="square_and_piece_corner_radius_example">Square And Piece Corner Radius Example</string>
+    <string name="boom_example">Boom Example</string>
+    <string name="button_place_alignment_example">Button Place Alignment Example</string>
+    <string name="order_example">Order Example</string>
+    <string name="actionbar_example">ActionBar Example</string>
+    <string name="tool_bar_example">ToolBar Example</string>
+    <string name="draggable_example">Draggable Example</string>
+    <string name="ease_example">Ease Example</string>
+    <string name="listener_example">Listener Example</string>
+    <string name="control_example">Control Example</string>
+    <string name="share_example">Share Example</string>
+    <string name="list_example">List Example</string>
+    <string name="recycler_view_example">Recycler View Example</string>
+    <string name="fragment_example">Fragment Example</string>
+    <string name="change_boom_button_example">Change Boom Button Example</string>
+    <string name="three_d_animation_example">3D Animation Example</string>
+    <string name="custom_position_example">Custom Position Example</string>
+    <string name="fade_views_example">Fade Views Example</string>
+    <string name="orientation_example">Orientation Example</string>
+    <string name="Loading">Loading...</string>
+
+    <string name="text_inside_circle_button_text_normal">Text Inside Circle Button(Normal)</string>
+    <string name="text_inside_circle_button_text_highlighted">Text Inside Circle Button(Highlighted)</string>
+    <string name="text_inside_circle_button_text_unable">Text Inside Circle Button(Unable)</string>
+
+    <string name="text_outside_circle_button_text_normal">Text Outside Circle Button(Normal)</string>
+    <string name="text_outside_circle_button_text_highlighted">Text Outside Circle Button(Highlighted)</string>
+    <string name="text_outside_circle_button_text_unable">Text Outside Circle Button(Unable)</string>
+
+    <string name="text_ham_button_text_normal">Ham Button Text(Normal)</string>
+    <string name="text_ham_button_text_highlighted">Ham Button Text(Highlighted)</string>
+    <string name="text_ham_button_text_unable">Ham Button Text(Unable)</string>
+    <string name="text_ham_button_sub_text_normal">Ham Button Sub Text(Normal)</string>
+    <string name="text_ham_button_sub_text_highlighted">Ham Button Sub Text(Highlighted)</string>
+    <string name="text_ham_button_sub_text_unable">Ham Button Sub Text(Unable)</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+
+</resources>

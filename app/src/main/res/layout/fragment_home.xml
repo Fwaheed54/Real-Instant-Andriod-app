@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".NavigationFragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/subscribeBtn"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="subscribe"
+                android:textColor="@color/white"
+                android:background="@drawable/subscription_button_style"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/FilterBtn"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/ic_filter_list_blue_24dp"
+                android:text="Filter"
+                android:textColor="@color/white"
+                android:background="@drawable/subscription_button_style"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/UsersCardsView"
+                android:layout_above="@+id/bmb1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    </LinearLayout>
+
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        app:bmb_buttonEnum="simpleCircle"
+        app:bmb_buttonPlaceEnum="buttonPlace_custom"
+        app:bmb_dotRadius="0dp"
+        app:bmb_highlightedColor="@android:color/holo_blue_bright"
+        app:bmb_normalColor="@android:color/holo_blue_dark"
+        app:bmb_piecePlaceEnum="piecePlace_dot_3_3">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_add_black_24dp" />
+
+    </com.nightonke.boommenu.BoomMenuButton>
+
+</RelativeLayout>

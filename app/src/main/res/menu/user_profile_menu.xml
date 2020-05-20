@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/allUserPostId"
+        android:icon="@drawable/ic_local_post_office_black_24dp"
+        android:title="@string/title_AllPost" />
+
+    <item
+        android:id="@+id/allUserPaidPostId"
+        android:icon="@drawable/ic_payment_black_24dp"
+        android:title="@string/title_PaidPosts" />
+
+    <item
+        android:id="@+id/allUserSubscribedAreasId"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="@string/title_subscription" />
+
+</menu>
+
